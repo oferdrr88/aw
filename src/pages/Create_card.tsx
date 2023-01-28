@@ -8,7 +8,7 @@ import { toast } from 'react-toastify';
 import { getToken } from '../auth/tokenMgmt';
 import Buttonback from '../components/back_button/Buttonback';
 
-import Title from '../components/Title';
+import Title from '../components/title/Title';
 import { authHeaders, BASE_URL } from '../config/config';
 import { UserCard } from '../models/Card';
 
@@ -88,55 +88,55 @@ function Create_card() {
             <div className="  m-2 ">
                 <Title main="Card creation form" sub="business card" />
             </div>
-            <div className=" from-control w-50  m-auto px-4 ">
-                <div className="mb-3">
-                    <label htmlFor="Name" className="form-label">
+            <div className=" from-control w-50  m-auto px-4 bg-dark  rounded-2">
+                <div className=" p-3">
+                    <label htmlFor="Name" className="form-label text-info">
                         Name
                     </label>
                     <input type="text" className="form-control" placeholder=" Name" value={title} onChange={(e) => setTitle(e.target.value)} />
                 </div>
-                <div>
-                    <label htmlFor="subTitlee" className="form-label">
+                <div className=" p-3">
+                    <label htmlFor="subTitlee" className="form-label  text-info">
                         subTitle
                     </label>
                     <input type="text" className="form-control" placeholder=" subTitle" value={subTitle} onChange={(e) => SetSubTitle(e.target.value)} />
                 </div>
 
-                <div className="mb-3">
-                    <label htmlFor="description" className="form-label">
+                <div className=" p-3">
+                    <label htmlFor="description" className="form-label  text-info">
                         description
                     </label>
                     <input type="text" className="form-control" placeholder=" description" value={description} onChange={(e) => setDescription(e.target.value)} />
                 </div>
 
-                <div className="mb-3">
-                    <label htmlFor=" address" className="form-label">
+                <div className=" p-3">
+                    <label htmlFor=" address" className="form-label  text-info">
                         {' '}
                         address
                     </label>
                     <input type="text" className="form-control" placeholder=" address" value={address} onChange={(e) => setAddress(e.target.value)} />
                 </div>
 
-                <div className="mb-3">
-                    <label htmlFor=" Phone" className="form-label">
+                <div className=" p-3">
+                    <label htmlFor=" Phone" className="form-label  text-info">
                         {' '}
                         Phone
                     </label>
                     <input type="tel" className="form-control" placeholder="  Phone" value={phone} onChange={(e) => setPhone(e.target.value)} />
                 </div>
 
-                <div className="mb-3">
-                    <label htmlFor=" Business image" className="form-label">
+                <div className="p-3">
+                    <label htmlFor=" Business image" className="form-label  text-info">
                         {' '}
                         Business image
                     </label>
                     <input type="text" className="form-control" placeholder=" Business image" value={url} onChange={(e) => setUrl(e.target.value)} />
                 </div>
 
-                <button onClick={handeleClick} className="btn_new  btn-lg">
+                <Buttonback />
+                <button onClick={handeleClick} className="btn_new  m-4 ">
                     Sign Up
                 </button>
-                <Buttonback />
             </div>
             {error && <div className="text-danger">{error}</div>}
         </>

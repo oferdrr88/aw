@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './user.css';
 
 interface Prop {
     userName: string;

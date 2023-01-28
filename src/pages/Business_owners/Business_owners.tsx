@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router';
 import Buttonback from '../../components/back_button/Buttonback';
 // import { getToken } from '../../auth/tokenMgmt';
 import Card from '../../components/card/Card';
-import Title from '../../components/Title';
+import Title from '../../components/title/Title';
 import { authHeaders, BASE_URL } from '../../config/config';
 import { UserCard } from '../../models/Card';
 import './busness.css';

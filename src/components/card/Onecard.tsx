@@ -1,7 +1,7 @@
 import { title } from 'process';
 import { UserCard } from '../../models/Card';
 import { useEffect, useState } from 'react';
-import Title from '../Title';
+import Title from '../title/Title';
 import { authHeaders, BASE_URL } from '../../config/config';
 import { useNavigate, useParams } from 'react-router';
 import './onecard.css';

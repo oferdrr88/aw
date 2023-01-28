@@ -1,4 +1,4 @@
-import Title from '../components/Title';
+import Title from '../components/title/Title';
 
 function About() {
     return (
@@ -7,8 +7,8 @@ function About() {
             <div className="">
                 <Title main="Animall World" sub="About as" />
 
-                <div className=" d-flex p-3 mx-5">
-                    <p>
+                <div className=" d-flex p-3 m-3 text-secondary-emphasis bg-light opacity-75">
+                    <p className="px-3">
                         Lorem ipsum dolor sit,<br></br>
                         amet consectetur adipisicing elit.<br></br>
                         Nobis repudiandae nulla assumenda, <br></br>

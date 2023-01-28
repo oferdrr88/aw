@@ -2,7 +2,7 @@ import Joi from 'joi';
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { toast } from 'react-toastify';
-import Title from '../components/Title';
+import Title from '../components/title/Title';
 import { BASE_URL } from '../config/config';
 
 interface ISsinupData {
