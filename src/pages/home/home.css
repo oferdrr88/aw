@@ -1,0 +1,29 @@
+body{
+    background-color: aquamarine;
+}
+
+
+.card{
+    width: 15rem;
+   
+}
+
+.box_display{
+    width:10rem
+}
+
+.grid{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    padding-left:25rem;
+}
+
+    
+
+    
