@@ -17,7 +17,7 @@ function Footer() {
                     </p>
                     <span className="px-4 ">
                         version :{new Date().getFullYear()}
-                        <i className="bi bi-tencent-qq"></i>[0027]
+                        <i className="bi bi-tencent-qq"></i>[0028]
                     </span>
                 </div>
             </div>

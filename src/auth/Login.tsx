@@ -78,21 +78,21 @@ function Login() {
             <div className="  m-2 ">
                 <Title main="Login registered customers" sub="You can log in as a registered user" />
             </div>
-            <div className=" from-control w-50  m-auto px-4 ">
+            <div className=" from-control w-25 m-auto px-4 bg-dark opacity-50 rounded-2 ">
                 <div className="mb-3">
-                    <label htmlFor="email" className="form-label">
+                    <label htmlFor="email" className="form-label text-info">
                         email
                     </label>
                     <input type="email" className="form-control" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="password" className="form-label">
+                    <label htmlFor="password" className="form-label text-info">
                         password
                     </label>
                     <input type="password" className="form-control" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
                 </div>
 
-                <button onClick={submit} className="btn btn-primary btn-lg">
+                <button onClick={submit} className="btn_new btn-lg">
                     Sign Up
                 </button>
             </div>

@@ -88,7 +88,7 @@ function Create_card() {
             <div className="  m-2 ">
                 <Title main="Card creation form" sub="business card" />
             </div>
-            <div className=" from-control w-50  m-auto px-4 bg-dark  rounded-2">
+            <div className=" from-control w-25 m-auto px-4 bg-dark opacity-50 rounded-2">
                 <div className=" p-3">
                     <label htmlFor="Name" className="form-label text-info">
                         Name

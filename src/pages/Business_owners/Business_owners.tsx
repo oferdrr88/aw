@@ -105,12 +105,9 @@ function Business_owners() {
                         <i className="bi bi-caret-right  "></i>
                     </button>
                 </div>
-                {/* <button onClick={getFilter} className="btn_new  ">
-                    <i className="bi bi-funnel"></i>
-                </button> */}
             </div>
 
-            {businessowners.length === 0 && <div className=" alert alert-info m-5">There are no data tabs</div>}
+            {businessowners.length === 0 && <div className=" alert alert-info m-5 text-center">There are no data tabs</div>}
 
             <div className=" d-flex justify-content-center col-12">
                 <div className={`${display} `}>
