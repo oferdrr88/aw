@@ -1,6 +1,14 @@
 body{
-    background-color: aquamarine;
+    /* background-image: linear-gradient(180deg, rgba(247, 255, 128, 1) 0%, rgba(231, 245, 128, 0.17) 100%); */
+    background-color: #ffffff;
+background-image: url('https://dub01pap003files.storage.live.com/y4mwaX0DGrVETUWx1eqDbcWjgvT_0W2jpHozcsTTuxYWdELWJ8hBKVyfCnoABru57I8yYpoqaDoAy_SvXtyfRcCEKxn58r0L_8gzwpgPC6EVUN-HyHEFwo7bAm80DZBo8QaK6CoEH3_NjIkGHdLEDJNPs5e_IFIZj-qcWWDR8ezR9WXcYOWKaDKFjOYPdgXKyeve8bNt7QXyEarga5EQ1_R5esZPm1nqhhZGPY1Iohu8ds?encodeFailures=1&width=1079&height=720');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
 }
+
+
 
 
 .card{
