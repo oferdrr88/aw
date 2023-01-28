@@ -4,6 +4,6 @@ bg1: #6046e2
      #99a5d6
 
 
-     page: home
-           footer
-           crate card
+     page: 
+           
+          
