@@ -8,22 +8,29 @@ interface Props {
 }
 
 function Favorite_choice({ cardData }: Props) {
-    // const [item, setItem] = useState(['']);
-    // console.log('item=', item);
+    const [arey_item, setAreyitem] = useState<string[]>(['']);
+
     const [ch_icon, setCh_icon] = useState(true);
     const { image, title, description, subTitle, phone, address, bizNumber, _id } = cardData;
     const arrey_id: any[] = [];
 
-    React.useEffect(() => {
-        console.log('----', ch_icon);
-    }, [ch_icon]);
+    // React.useEffect(() => {
+    //     // console.log('----', ch_icon);
+    // }, [ch_icon]);
 
     const toggle = () => {
-        // const Aid = (arrey_id = []);
+        // (!arey_item.length setAreyitem([...arey_item, cardData.phone])?):
+        console.log('Toggele =', ch_icon);
+        console.log('arrey00= ', arey_item);
         setCh_icon((ch_icon) => !ch_icon);
-        if (ch_icon === true) {
-            arrey_id.push(_id);
-            console.log('arrey= 0 =', arrey_id[0], 'arrey= 1 =', arrey_id[1], 'arrey= 2 =', arrey_id[2]);
+        console.log('seticon', ch_icon);
+        // console.log('arrey1= ', arey_item);
+        if (ch_icon == true) {
+            console.log('in ifseticon', ch_icon);
+            setAreyitem([...arey_item, cardData.phone]);
+            console.log('cardData', cardData.phone);
+
+            console.log('arrey2= ', arey_item);
         }
     };
 
