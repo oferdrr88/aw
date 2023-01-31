@@ -74,8 +74,14 @@ const bull = (
 function Home() {
     return (
         <>
-            <div className=" ">
+            <div className="  ">
                 <Title main="Animall World" sub="Special Livestock Sales" />
+                <Stack direction="row" spacing={4}>
+                    <Avatar
+                        alt="Ofer dahan"
+                        src="https://dub01pap003files.storage.live.com/y4mPJaua_jt9PaJ280grOe84sXJv8mUFVszw3NFt-_WmRFVraweKt65Wf2q2rZkeBzMrjNYTfYGe3ZVfnibKdo23PKWr92bMRmrVSg-qlMzdwRQxraKZsxW1hcXyU4qtspj3dPtZ868hiWomUiu4W5pHgOfVaQqNq6d83sLBxHYk_emD4bDuyxFnGLV9H4EJ7XparsrA4sVFu7FyL5LxSiLAo31ZMCAvfzT5icwcoz4InI?encodeFailures=1&width=1873&height=921"
+                    />
+                </Stack>
             </div>
 
             <div className="   container d-flex justify-content-around">
@@ -88,17 +94,11 @@ function Home() {
                 </ImageList>
             </div>
 
-            <Stack direction="row" spacing={4}>
-                <Avatar
-                    alt="Ofer dahan"
-                    src="https://ic.c4assets.com/brands/the-dog-house/5061c640-5174-451b-9798-0c11f6d56b4d.jpg?interpolation=progressive-bicubic&output-format=jpeg&output-quality=90{&resize}"
-                />
-            </Stack>
             <div className="card text-center">
                 <div className="card-header">דברי הסבר</div>
                 <div className="card-body">
                     <blockquote className="blockquote mb-0">
-                        <p> 'c' ליצור כרטיס חדש לחץ על מקש</p>
+                        <p> 'Enter' ליצור כרטיס חדש לחץ על מקש</p>
                         <footer className="blockquote-footer">
                             מנהל <cite title="Source Title">יכול ליצור כרטיס חדש</cite>
                         </footer>
